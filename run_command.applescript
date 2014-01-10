@@ -11,7 +11,6 @@ on execInTerminalTab(_command, _window, _tab)
     activate
     set frontmost of _window to true
     set selected of _tab to true
-    do script "/usr/local/bin/zsh" in tab 1 of window 1
     do script "clear" in tab 1 of window 1
     do script _command in tab 1 of window 1
   end

@@ -1,6 +1,7 @@
 *
+!.gitignore
+!Default (OSX).sublime-keymap
 !Preferences.sublime-settings
 !README.md
 !rspec.py
-!run_command.applescript
-!Default\ (OSX).sublime-keymap
+!run_command_applescript
