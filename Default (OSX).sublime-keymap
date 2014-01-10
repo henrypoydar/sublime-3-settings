@@ -51,4 +51,7 @@
                   "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
           }
   },
+  { "keys": [",", "n"], "command": "toggle_side_bar" },
+  { "keys": [",", "f"], "command": "toggle_full_screen" },
+
 ]
