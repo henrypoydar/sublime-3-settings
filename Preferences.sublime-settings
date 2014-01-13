@@ -32,6 +32,8 @@
 	"spell_check": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
+	"wrap_width": 80,
+	"word_wrap": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true
 }
