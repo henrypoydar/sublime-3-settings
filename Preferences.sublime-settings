@@ -20,6 +20,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage"
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
@@ -32,8 +33,9 @@
 	"spell_check": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"wrap_width": 80,
-	"word_wrap": true,
 	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"vintageous_use_ctrl_keys": true,
+	"word_wrap": true,
+	"wrap_width": 80
 }
