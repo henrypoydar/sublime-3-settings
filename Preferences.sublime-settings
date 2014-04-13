@@ -15,9 +15,10 @@
 		"log"
 	],
 	"font_face": "Source Code Pro for Powerline",
-	"font_size": 20,
+	"font_size": 21,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage",
