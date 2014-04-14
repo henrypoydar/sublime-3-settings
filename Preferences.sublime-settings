@@ -15,13 +15,13 @@
 		"log"
 	],
 	"font_face": "Source Code Pro for Powerline",
-	"font_size": 21,
+	"font_size": 19,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Vintage"
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,

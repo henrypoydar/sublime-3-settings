@@ -76,9 +76,9 @@ class RunTests(sublime_plugin.TextCommand):
       line_number, column = self.view.rowcol(self.view.sel()[0].begin())
       line_number += 1
       path += ":" + str(line_number)
-      command = "bundle exec rspec"
+      command = "spring rspec"
     else:
-      command = "bundle exec rspec"
+      command = "spring rspec"
 
     cmd = 'osascript '
     cmd += '"' + sublime.packages_path() + '/User/run_command.applescript"'
