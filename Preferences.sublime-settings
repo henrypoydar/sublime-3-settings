@@ -15,7 +15,7 @@
 		"log"
 	],
 	"font_face": "Source Code Pro for Powerline",
-	"font_size": 19,
+	"font_size": 21,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -25,6 +25,7 @@
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"rulers":
 	[
@@ -33,6 +34,7 @@
 	"save_on_focus_lost": true,
 	"spell_check": true,
 	"tab_size": 2,
+	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": true,
