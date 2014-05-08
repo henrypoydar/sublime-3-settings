@@ -1,4 +1,8 @@
 {
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 1,
+	"caret_style" : "phase",
 	"check_for_bundler": true,
 	"check_for_rbenv": true,
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
