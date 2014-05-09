@@ -2,10 +2,10 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"caret_style" : "phase",
+	"caret_style": "phase",
 	"check_for_bundler": true,
 	"check_for_rbenv": true,
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/User/Tomorrow-Night-Eighties (SL).tmTheme",
 	"file_exclude_patterns":
 	[
 		".DS_Store"
@@ -19,7 +19,7 @@
 		"log"
 	],
 	"font_face": "Source Code Pro for Powerline",
-	"font_size": 21,
+	"font_size": 20,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -38,7 +38,7 @@
 	"save_on_focus_lost": true,
 	"spell_check": true,
 	"tab_size": 2,
-	"theme": "Soda Light 3.sublime-theme",
+	"theme": "Spacegray Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": true,
