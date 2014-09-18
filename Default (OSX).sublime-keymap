@@ -10,47 +10,14 @@
     "args": {"single": true}
   },
 
-  // `,j` move window focus down
-  { "keys": [",", "j"], "command": "move_group_focus",
-          "args": {"direction": "down"},
-          "context": [{"key": "setting.vintage_ctrl_keys"}, {"key": "setting.command_mode"}]
-  },
-
-  // `,l` move window focus right
-  { "keys": [",", "l"], "command": "move_group_focus",
-          "args": {"direction": "right"},
-          "context": [{"key": "setting.vintage_ctrl_keys"}, {"key": "setting.command_mode"}]
-  },
-
-  // `,h` move window focus left
-  { "keys": [",", "h"], "command": "move_group_focus",
-          "args": {"direction": "left"},
-          "context": [{"key": "setting.vintage_ctrl_keys"}, {"key": "setting.command_mode"}]
-  },
-
-  // Window Group Layouts
-  // `,w` one column
+  // So that Vintageous works
   {
-          "keys": [",", "w"],
-          "command": "set_layout",
-          "args":
-          {
-                  "cols": [0.0, 1.0],
-                  "rows": [0.0, 1.0],
-                  "cells": [[0, 0, 1, 1]]
-          }
+    "keys": ["ctrl+["],
+    "command": "_enter_normal_mode",
+    "args": {"mode": "mode_insert"},
+    "context": [{"key": "vi_insert_mode_aware"}, {"key": "vi_use_ctrl_keys"}]
   },
-  // `,ws` vertical split columns
-  {
-          "keys": [",", "w", "s"],
-          "command": "set_layout",
-          "args":
-          {
-                  "cols": [0.0, 0.5, 1.0],
-                  "rows": [0.0, 1.0],
-                  "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-          }
-  },
+
   { "keys": [",", "n"], "command": "toggle_side_bar" },
   { "keys": [",", "f"], "command": "toggle_full_screen" },
 
