@@ -1,9 +1,4 @@
 [
-{
-    "keys": ["super+."],
-    "command": "open_rspec_file",
-    "args": {"option": "next"}
-  },
   {
     "keys": ["super+shift+r"],
     "command": "run_tests",
