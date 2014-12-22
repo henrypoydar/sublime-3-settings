@@ -84,8 +84,8 @@ class RunTests(sublime_plugin.TextCommand):
       line_number += 1
       if path.find("/spec/") > 0:
         path += ":" + str(line_number)
-      if path.find("/test/") > 0:
-        path += " -l " + str(line_number)
+      # if path.find("/test/") > 0:
+      #   path += " -l " + str(line_number)
 
     cmd = 'osascript '
     cmd += '"' + sublime.packages_path() + '/User/run_command.applescript"'
