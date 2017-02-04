@@ -10,7 +10,7 @@ The `.gitignore` file is set up to whitelist only the settings file for this dir
 This is how:
 
     git init
-    git remote add origin PATH/TO/REPO
+    git remote add origin PATH/TO/THIS/REPO
     git fetch
     git checkout -t origin/master
 
@@ -26,7 +26,7 @@ Basic packages:
 - GitGutter
 - Quick File Move
 - Quick File Open
-- Color Highlighter:
+- Color Highlighter
 
 ### Manual Installs
 
