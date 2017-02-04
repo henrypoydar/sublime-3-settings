@@ -21,8 +21,16 @@ All packages must be installed via Package Control. Install Package Control foll
 Basic packages:
 
 - Vintageous
-- VintageousOrigami
+- Origami
 - Material Theme
+- GitGutter
+- Quick File Move
+- Quick File Open
+- Color Highlighter:
+
+### Manual Installs
+
+Clone `https://github.com/jlangston/Vintageous-Origami` into the 'Packages' directory. Overcomes some brittle Origami settings with Vintageous.
 
 ## Enable key repeat
 
