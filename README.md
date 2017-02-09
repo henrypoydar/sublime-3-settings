@@ -27,6 +27,7 @@ Basic packages:
 - Quick File Move
 - Quick File Open
 - Color Highlighter
+- RubyTest
 
 ### Manual Installs
 
