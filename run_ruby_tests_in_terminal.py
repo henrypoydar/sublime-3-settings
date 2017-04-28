@@ -67,7 +67,7 @@ class RunTests(sublime_plugin.TextCommand):
     if path.find("/spec/") > 0:
       command = "bx spring rspec "
     elif path.find("/test/") > 0:
-      command = "bx spring rake test TEST="
+      command = "bx spring rails test "
     else:
      return sublime.error_message("This file does not appear to be a spec or test.")
 
@@ -82,7 +82,7 @@ class RunTests(sublime_plugin.TextCommand):
     if single:
       line_number, column = self.view.rowcol(self.view.sel()[0].begin())
       line_number += 1
-      if path.find("/spec/") > 0:
+      if line_number > 3:
         path += ":" + str(line_number)
       # if path.find("/test/") > 0:
       #   path += " -l " + str(line_number)
