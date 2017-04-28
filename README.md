@@ -10,7 +10,7 @@ The `.gitignore` file is set up to whitelist only the settings file for this dir
 This is how:
 
     git init
-    git remote add origin PATH/TO/REPO
+    git remote add origin PATH/TO/THIS/REPO
     git fetch
     git checkout -t origin/master
 
@@ -21,8 +21,17 @@ All packages must be installed via Package Control. Install Package Control foll
 Basic packages:
 
 - Vintageous
-- VintageousOrigami
+- Origami
 - Material Theme
+- GitGutter
+- Quick File Move
+- Quick File Open
+- Color Highlighter
+- RubyTest
+
+### Manual Installs
+
+Clone `https://github.com/jlangston/Vintageous-Origami` into the 'Packages' directory. Overcomes some brittle Origami settings with Vintageous.
 
 ## Enable key repeat
 
