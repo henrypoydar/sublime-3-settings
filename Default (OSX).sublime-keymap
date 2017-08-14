@@ -16,4 +16,14 @@
   { "keys": [",", "n"], "command": "toggle_side_bar" },
   { "keys": [",", "f"], "command": "toggle_full_screen" },
 
+  // Autocomplete in JSX in Babel
+
+  { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, meta.jsx.js) - string - comment", "match_all": true },
+      { "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
+      { "key": "setting.auto_close_tags" }
+    ]
+  }
+
 ]
